@@ -1,0 +1,2 @@
+- 数据库周边
+  - 服务端需要王数据库读写的数据,写在Modle项目里面会自动注册BsonClassMap,写在Hotfix就不行 需要手动注册 如果没有注册 查询会报错("Unknown discriminator value 'type'")。
